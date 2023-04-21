@@ -11,6 +11,10 @@ header {
     font-size: 16px;
 }
 
+main {
+    margin: 10px 20px;
+}
+
 footer {
     background-color: rgb(125, 149, 211); 
     color: #000000; 
