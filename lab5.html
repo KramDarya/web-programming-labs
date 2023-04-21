@@ -12,7 +12,11 @@
             let b = 7891;
             let result = a + b;
             alert('Сумма '+ a +' и '+ b +' равна' + result);
-    }
+        }
+        function showAutor() {
+            let author = 'Автор страницы: \nКрамар Дарья';
+            alert(author);
+        }
     </script>
     <style>
         .message {
@@ -34,13 +38,13 @@
 </head>
 
 <body>
-    <header>
+    <header onclick="showAutor()">
         НГТУ, ФБ, Лабораторная работа 5
     </header>
 
     <main>
         <div class="message" onclick="showSum()">Сколько будет 5154+7891?</div>
-        <div class="message">Узнать, кто авторы страницы</div> 
+        <div class="message" onclick="showAutor()">Узнать, кто авторы страницы</div> 
     </main>
 
     <footer>
